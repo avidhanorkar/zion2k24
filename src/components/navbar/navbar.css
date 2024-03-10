@@ -57,7 +57,7 @@ ul {
 
 /* Add a style for the scrolled state */
 .navList.scrolled {
-  background-color: rgba(44, 39, 39, 0.963);
+  background-color: rgb(45, 0, 75);
   /* Add other styles as needed */
 }
 
