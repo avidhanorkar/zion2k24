@@ -17,15 +17,18 @@ const Navbar = () => {
           <ul className="sidebar">
             <li>
               <svg
-                className="close-btn"
-                onClick={closeSidebar}
+                class="close-btn"
+                aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
-                height="30"
-                viewBox="0 -960 960 960"
-                width="30"
-                fill="white"
+                fill="none"
+                viewBox="0 0 24 24"
               >
-                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-width="2"
+                  d="M5 7h14M5 12h14M5 17h14"
+                />
               </svg>
             </li>
             <li>
@@ -197,21 +200,25 @@ const Navbar = () => {
             <li className="svg">
               <NavLink className="navLinks menu-btn">
                 <svg
-                  onClick={showSidebar}
+                  class="menu-btn"
+                  aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
-                  height="30"
-                  viewBox="0 -960 960 960"
-                  width="30"
-                  fill="white"
+                  fill="none"
+                  viewBox="0 0 24 24"
                 >
-                  <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-width="2"
+                    d="M5 7h14M5 12h14M5 17h14"
+                  />
                 </svg>
               </NavLink>
             </li>
           </ul>
           <nav className="nav-elements">
             <ul className="sidebar">
-              <li className="clos-btn">
+              <li className="close-btn">
                 <svg
                   onClick={closeSidebar}
                   fill="white"
